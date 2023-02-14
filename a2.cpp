@@ -5,9 +5,9 @@
 // Student Info
 // ------------
 //
-// Name : <put your full name here!>
-// St.# : <put your full SFU student number here>
-// Email: <put your SFU email address here>
+// Name : Dominic Botelho
+// St.# : 301393131
+// Email: dbotelho@sfu.ca
 //
 //
 // Statement of Originality
@@ -35,9 +35,12 @@
 using namespace std;
 
 class str_vec {
-
-    // ...
-
+  private:
+    string *arrPtr;
+  public:
+    str_vec(){
+      arrPtr = new string[10];
+    }
 }; // class str_vec
 
 // ... put test functions here ...
@@ -79,6 +82,8 @@ class str_vec {
 
 int main() {
   cout << "Assignment 2 ... \n";
+
+  str_vec arr;
 
   //
   // ... put code that calls your test functions here ...
